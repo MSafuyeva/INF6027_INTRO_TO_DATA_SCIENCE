@@ -19,3 +19,13 @@ Merging datasets from 2016,2017,2018 into one dataframe.
 Information value-IV.Evaluate the predictive power of each feature
 Handling multicollinearity
 # Exploratory Data Analysis
+Exploring the distribution of numeric features
+Exploring the relationship between target variable (class) and key predictors
+# Modelling
+Evaluating Logistic Regression and XGBOOST model
+Models evaluation by accuracy.
+# Results
+Logistic regression accuracy: 56.87
+XGBOOST accuracy:67.75
+
+
