@@ -13,7 +13,9 @@ README.md: Project overview and instructions.
 # Methodology
 # Data Preprocessing
 Handling missing values using median imputation.
+
 Addressing outliers using IQR method.
+
 Merging datasets from 2016,2017,2018 into one dataframe.
 # Feature Selection
 Information value-IV.Evaluate the predictive power of each feature
