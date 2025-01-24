@@ -6,10 +6,15 @@ data/: Contains raw and processed datasets.
 notebooks/: R Notebooks for data analysis and modelling.
 README.md: Project overview and instructions.
 # Research Questions
-1.  How effectively can logistic regression classify stock movements ("buy" or "not to buy") based on engineered financial features?
-2.	How do feature selection methods, such as information value and multicollinearity handling, improve the model's predictive accuracy?
-3.	Which financial indicators exhibit the strongest predictive power for stock movements, and how are these indicators distributed across different sectors?
-4.	How does the predictive performance of linear models Logistic Regression compare with non-linear models XGBoost for forecasting stock price variation and classification?
+1.How effectively can logistic regression classify stock movements ("buy" or "not to buy") 
+based on engineered financial features?
+2.How does feature selection, including information value analysis and multicollinearity 
+reduction, influence the predictive accuracy and overall performance of stock 
+classification models?
+3.Which financial indicators exhibit the strongest predictive power for stock movements?
+4.How does the predictive performance of linear models, such as Logistic Regression, 
+compare to non-linear models like XGBoost in forecasting stock price variations and 
+classification?
 # Methodology
 # Data Preprocessing
 Handling missing values using median imputation.
@@ -28,10 +33,8 @@ Exploring the relationship between target variable (class) and key predictors
 # Modelling
 Evaluating Logistic Regression and XGBOOST model
 
-Models evaluation by accuracy.
+Models evaluation by performance metrics
 # Results
 Logistic regression accuracy: 56.87
 
 XGBOOST accuracy:67.75
-
-
